@@ -7,7 +7,7 @@ Userstyle/CSS to make scrollbars thinner, in dark mode. (meant for dark-mode)
 
 > Note - If you JUST need THIN scrollbars:
 > 
-> [![](https://img.shields.io/badge/Install_directly_with-Stylus-116b59.svg?style=for-the-badge&logo=stylus)](https://github.com/ancandi/thin-scrollbars-css/raw/refs/heads/main/thin-scrollbars-thin.user.styl)
+> [![Install THIN-ONLY-CSS directly with Stylus](https://img.shields.io/badge/Install_directly_with-Stylus-116b59.svg?style=for-the-badge&logo=stylus)](https://github.com/ancandi/thin-scrollbars-css/raw/refs/heads/main/thin-scrollbars-thin.user.styl)
 
 <img src="https://raw.githubusercontent.com/ancandi/thin-scrollbars-css/refs/heads/main/image.png" width="100%"/>
 
