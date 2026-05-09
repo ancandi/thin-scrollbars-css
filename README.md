@@ -3,7 +3,7 @@
 # Thin Scrollbars CSS [[UserStyle.World Link]](https://userstyles.world/style/28023)
 Userstyle/CSS to make scrollbars thinner, in dark mode. (meant for dark-mode)
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install_directly_with-Stylus-116b59.svg?style=for-the-badge&logo=stylus)](https://raw.githubusercontent.com/ancandi/Docs-Dark-Mode-Title-Fix/refs/heads/main/docs-darkmode-title-fix.user.styl)
+[![Install directly with Stylus](https://img.shields.io/badge/Install_directly_with-Stylus-116b59.svg?style=for-the-badge&logo=stylus)](https://raw.githubusercontent.com/ancandi/thin-scrollbars-css/refs/heads/main/thin-scrollbars-css.styl)
 
 <img src="https://raw.githubusercontent.com/ancandi/thin-scrollbars-css/refs/heads/main/image.png" width="100%"/>
 
