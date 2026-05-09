@@ -1,0 +1,42 @@
+/* ==UserStyle==
+@name         Thin Scrollbars CSS
+@version      20260509.16.11
+@namespace    github.com/ancandi
+@description  make scrollbars thinner/transparent in background, in dark mode
+@author       ancandi
+@license      MIT
+==/UserStyle== */
+
+@-moz-document regexp(".*") {
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #3d3d3d #0000;
+}
+::-webkit-scrollbar-button,
+::-webkit-scrollbar-track-piece {
+  display: none !important;
+}
+::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, currentColor, white 20%) !important;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: color-mix(in srgb, currentColor, white 40%) !important;
+}
+
+/* Messenger/Facebook Exceptions */
+[class^="x1"]::-webkit-scrollbar-track,
+[class*=" x1"]::-webkit-scrollbar-track {
+  background: #242526 !important;
+}
+
+[class^="x1"]::-webkit-scrollbar-thumb,
+[class*=" x1"]::-webkit-scrollbar-thumb {
+  border-color: #242526 !important;
+}
+/* Firefox fallback for Messenger/Facebook exceptions */
+[class^="x1"],
+[class*=" x1"] {
+  scrollbar-color: #3d3d3d #242526 !important;
+}
+}
