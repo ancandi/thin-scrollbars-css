@@ -15,17 +15,11 @@ Userstyle/CSS to fix title duplication for `chrome://flags` force-dark-mode.
 1. Install the [Stylus browser extension](https://add0n.com/stylus.html). **(downloads found top right)**
 2. Click the **install button above** to install the fix directly.
    
-> Note:
-> This works, assuming you enabled the ://flag in your browser labelled, `(#enable-force-dark).`
-
-> Patch #1 — 4/6/2026:
-> made adaptive to bg-color, should work better (hopefully)
-
-> Patch #2 — 4/6/2026:
-> newest simple fix method.
+> Note: I have force-dark-mode flag enabled and made exceptions to Facebook (dark mode on Facebook)
+> Also, this may override all sites' scrollbar CSS and may show the arrow buttons, etc.
 
 ## 📁 Other ways to install
 For userstyle managers other than Stylus or a custom-compiled version, please refer to the source code or use your manager's "Import" function with the raw URL.
 
 ## 📜 License
-Code released under the [MIT License](https://github.com/ancandi/Docs-Dark-Mode-Title-Fix/blob/main/LICENSE).
+Code released under the [MIT License](https://github.com/ancandi/thin-scrollbars-css/blob/main/LICENSE).
