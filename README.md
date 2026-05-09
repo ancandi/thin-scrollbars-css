@@ -16,6 +16,7 @@ Userstyle/CSS to make scrollbars thinner, in dark mode. (meant for dark-mode)
 2. Click the **install button above** to install the fix directly.
    
 > Note: I have force-dark-mode flag enabled and made exceptions to Facebook (dark mode on Facebook)
+> 
 > Also, this may override all sites' scrollbar CSS and may show the arrow buttons, etc.
 
 ## 📁 Other ways to install
