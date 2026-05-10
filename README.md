@@ -23,7 +23,7 @@ Userstyle/CSS to make scrollbars thinner, in dark mode. (meant for dark-mode)
 > Also, this may override all sites' scrollbar CSS and may show the arrow buttons, etc.
 > 
 > Important customization notes:
-> You may change the 1st value in "scrollbar-color" which is hex color, to #8b8b8b [default color of white scrollbar], which is the scrollbar color of light mode, if you don't enable force-dark-mode (or any color if you want).
+> You may change the 1st value in "scrollbar-color" which is hex color, to #8b8b8b [default color of white scrollbar], which is the scrollbar color of light mode, if you don't have force-dark-mode enabled (or any color if you want).
 > 
 > You may change the ":where(*)" to "html, body" if you don't like how the styling overrides all elements.
 > 
