@@ -1,14 +1,14 @@
 /* ==UserStyle==
-@name         Thin Scrollbars CSS
-@version      20260509.16.11
-@namespace    github.com/ancandi
-@description  make scrollbars thinner/transparent in background, in dark mode
-@author       ancandi
-@license      MIT
+@name          Thin Scrollbars CSS
+@version       20260509.16.11
+@namespace     github.com/ancandi
+@description   make scrollbars thinner/transparent in background, in dark mode
+@author        ancandi
+@license       MIT
 ==/UserStyle== */
 
 @-moz-document regexp(".*") {
-:where(*) {
+* {
   scrollbar-width: thin;
   scrollbar-color: #3d3d3d #0000;
 }
@@ -24,19 +24,21 @@
   background: color-mix(in srgb, currentColor, white 40%) !important;
 }
 
-/* Messenger/Facebook Exceptions */
-[class^="x1"]::-webkit-scrollbar-track,
-[class*=" x1"]::-webkit-scrollbar-track {
+/* Messenger/Facebook Exceptions (Dark Mode Focused)*/
+/* Apply to general unthemed chats/general x1 classes BUT NOT the chats which are themed */
+[class^="x1"]:not(.x16o0dkt)::-webkit-scrollbar-track,
+[class*=" x1"]:not(.x16o0dkt)::-webkit-scrollbar-track {
   background: #242526 !important;
 }
 
-[class^="x1"]::-webkit-scrollbar-thumb,
-[class*=" x1"]::-webkit-scrollbar-thumb {
+[class^="x1"]:not(.x16o0dkt)::-webkit-scrollbar-thumb,
+[class*=" x1"]:not(.x16o0dkt)::-webkit-scrollbar-thumb {
   border-color: #242526 !important;
 }
-/* Firefox fallback for Messenger/Facebook exceptions */
-[class^="x1"],
-[class*=" x1"] {
+
+/* Firefox fallback */
+[class^="x1"]:not(.x16o0dkt),
+[class*=" x1"]:not(.x16o0dkt) {
   scrollbar-color: #3d3d3d #242526 !important;
 }
 }
