@@ -19,9 +19,15 @@ Userstyle/CSS to make scrollbars thinner, in dark mode. (meant for dark-mode)
 1. Install the [Stylus browser extension](https://add0n.com/stylus.html). **(downloads found top right)**
 2. Click the **install button above** to install the fix directly.
    
-> Note: I have force-dark-mode flag enabled and made exceptions to Facebook (dark mode on Facebook)
-> 
+> Notes: I customized it for me, as I have force-dark-mode flag enabled and have made exceptions to Facebook (dark mode on Facebook).
 > Also, this may override all sites' scrollbar CSS and may show the arrow buttons, etc.
+> 
+> Important customization notes:
+> You may change the 1st value in "scrollbar-color" which is hex color, to #8b8b8b [default color of white scrollbar], which is the scrollbar color of light mode, if you don't enable force-dark-mode (or any color if you want).
+> 
+> You may change the ":where(*)" to "html, body" if you don't like how the styling overrides all elements.
+> 
+> spoo.me/thin-only-css < Click here if you want thin scrollbars for light mode/normal Chrome (take note of the customization notes above).
 
 ## 📁 Other ways to install
 For userstyle managers other than Stylus or a custom-compiled version, please refer to the source code or use your manager's "Import" function with the raw URL.
